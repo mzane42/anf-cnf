@@ -35,6 +35,7 @@ To download the source code and the object file type the given commands in your 
 
 1: sudo apt-get install subversion
 2: After installation type the given command: svn checkout http://anf-cnf.googlecode.com/svn/trunk/ anf-cnf-read-only
+3: Type chmod +x converter to make converter file executable.
 
 NOTE:
 
