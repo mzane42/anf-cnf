@@ -38,7 +38,7 @@ To download the source code and the object file type the given commands in your 
 3: Type chmod +x converter to make converter file executable.
 
 NOTE:
-
+To be used on Linux machines only.
 If you have any problems in understanding the input format please refer to demo.txt file for reference or contact me at akshay110022@gmail.com.
 cnf-anf converter is still work under construction.
 
