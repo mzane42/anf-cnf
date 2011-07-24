@@ -1,0 +1,51 @@
+
+INTRODUCTION:
+
+This is a converter for converting ANF(Algebraic Normal Form) to CNF(Conjuctive Normal Form) and vice-versa.
+The converter is developed by Akshay Gupta . The output to anf-cnf converter is in standard DIMACS format.
+To run the converter run the converter object file space fileaddress.
+The format to input equations is given below:
+	
+
+SYNOPSIS:
+
+./converter [FILEADDRESS]
+
+
+FORMAT: 
+
+Input Anf-Cnf:	The initial line starts with letter 'p' followed by space then number of variables.
+Variables are to be represented by numbers instead of letters.
+Each next line contains one eqaution. Xor's are to be represented by '|' and And's are to be represented by ','.
+Each equation is terminated by '|t|'. The constant term in the equation are given at the beginning of the equation followed by '|'.
+
+Example: Let the given equation be "0=a^b+c" , here '^' is AND and '+' is XOR. Now let variables a,b and c be represented by 1,2 and 3 respectivly.
+Then the new equation is 0|1,2|3|t|. If there are no constants then follow the steps below:
+
+Let the equation be "a=b^c+d"
+
+Step 1: Replace variables by numbers, new equation is 1=2^3+4.
+Step 2: Now on the XOR variable 1 on both sides, we get 1+1=2^3+4+1.
+Step 3: 1+1=0, So we get the new equation is 0=2^3+4+1.
+Step 4: The new equation in the required format is 0|2,3|4|1|t|.
+
+HOW TO DOWNLOAD CODE:
+
+To download the source code and the object file type the given commands in your terminal:
+
+1: sudo apt-get install subversion
+2: After installation type the given command: svn checkout http://anf-cnf-converter.googlecode.com/svn/trunk/ anf-cnf-converter-read-only
+
+NOTE:
+
+If you have any problems in understanding the input format please refer to demo.txt file for reference or contact me at akshay110022@gmail.com.
+cnf-anf converter is still work under construction.
+
+Warning:
+
+Any variation to the specified format may cause undesired output or infinite loop.
+No commnets are allowed.
+No extra lines are to be added in between or at the end.
+
+
+
