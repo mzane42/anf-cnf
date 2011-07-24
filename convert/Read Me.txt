@@ -34,7 +34,7 @@ HOW TO DOWNLOAD CODE:
 To download the source code and the object file type the given commands in your terminal:
 
 1: sudo apt-get install subversion
-2: After installation type the given command: svn checkout http://anf-cnf-converter.googlecode.com/svn/trunk/ anf-cnf-converter-read-only
+2: After installation type the given command: svn checkout http://anf-cnf.googlecode.com/svn/trunk/ anf-cnf-read-only
 
 NOTE:
 
