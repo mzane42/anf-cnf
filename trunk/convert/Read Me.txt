@@ -11,7 +11,7 @@ SYNOPSIS:
 
 ./converter [FILEADDRESS]
 
-
+FILEADDRESS is the path of the input equation file.
 FORMAT: 
 
 Input Anf-Cnf:	The initial line starts with letter 'p' followed by space then number of variables.
